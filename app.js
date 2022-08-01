@@ -2,4 +2,4 @@ function sayHello(name){
     console.log('Hello World ' + name)
 }
 
-sayHello('Daniel')
+sayHello('Lucas')
