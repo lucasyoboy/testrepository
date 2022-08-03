@@ -1,5 +1,9 @@
-function sayHello(name){
-    console.log('Hello World ' + name)
-}
+const express = require('express');
+const app = express();
 
-sayHello('Lucas2')
+app.get('/', function (req, res){
+    res.send('<h1>Hello World</h1>')
+})
+
+
+app.listen(3000, () => console.log('Server online on port 3000'))
